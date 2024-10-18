@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "node_api" {
-  ami           = "ami-0563a24cd88f04bb7" # Amazon Linux 2 AMI in eu-west-3
+  ami           = "ami-00d81861317c2cc1f" # Amazon Linux 2 AMI in eu-west-3
   instance_type = "t2.micro"
 
   tags = {
