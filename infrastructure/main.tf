@@ -21,7 +21,7 @@ resource "aws_instance" "node_api" {
   EOF
 
   # Ensure SSH access (optional for debugging)
-  key_name = var.aws_key_name
+  # key_name = var.aws_key_name
 
   security_groups = [aws_security_group.api_sg.name]
 }
